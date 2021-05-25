@@ -5,3 +5,4 @@
 ## 📂 spring
 - JPA
   - fetch 전략
+  - Dirty Checking
