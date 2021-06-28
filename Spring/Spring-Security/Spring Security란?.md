@@ -1,7 +1,7 @@
 # [Spring Security] Spring Security란?
 
 > 🔎      
-> [1. Spring Security 용어](#✔-Spring-Security-용어)   
+> [1. Spring Security 용어](#>-##-✔-Spring-Security-용어)   
 > [2. Spring Security 흐름도](#✔-Spring-Security-흐름도)   
 > [3. Spring Security 구조](#✔-Spring-Security-구조)
 
