@@ -1,21 +1,17 @@
 # [Spring Security] Spring Security란?
 
-> 🔎      
-> [1. Spring Security 용어](#>-##-✔-Spring-Security-용어)   
-> [2. Spring Security 흐름도](#✔-Spring-Security-흐름도)   
-> [3. Spring Security 구조](#✔-Spring-Security-구조)
 
-> ## ✔ Spring Security 용어
+## ✔ Spring Security 용어
 - **Principal(접근 주체)**: 보호된 리소스에 접근하는 사용자
 - **Authentication(인증)**: 해당 사용자(user, principal)가 본인이 맞는지
 - **Authorization(인가)**: 인증된 사용자가 요청한 리소스에 접근할 수 있는 **권한**을 부여
   - 인증 과정을 먼저 거치고 주체가 증명 된 이후 권한을 부여할 수 있음 (인증 -> 인가)
 - **Credential(패스워드, 증명서)**: 주체가 본인임을 인증하기 위해 서버에 제공하는 것
 
-> ## ✔ Spring Security 흐름도
+## ✔ Spring Security 흐름도
 <img src="https://chathurangat.files.wordpress.com/2017/08/blogpost-spring-security-architecture.png" width="100%" height="60%" alt="Spring-Security-Flow-iagram"></img><br/>
 
-> ## ✔ Spring Security 구조
+## ✔ Spring Security 구조
 > ###### 흐름도 숫자랑 완전히 같진 않음
 - #### 1. 유저가 로그인화면에서 아이디, 비밀번호를 입력하여 로그인을 시도함
 - #### 2. 서버에 로그인 인증 요청이 오면 ```SpringSecurityFilterChain```이 동작한다.
@@ -45,7 +41,7 @@
 - #### 9. ```LoginSuccessHandler```로 넘어온 ```Autentication``` 객체(```UsernamePasswordAuthenticationToken```)를 ```SecurityContextHolder```에 저장하면 인증 과정이 끝난다.
   - 그 이후 유저가 로그인에 성공하면 ```SecurityContextHolder```라는 세션을 활용하여 저장하기 때문에 한 번만 로그인 해도 로그인이 필요한 페이지들에 바로 접근이 가능해진다.
 ---
-> ##### 참고한 글
+##### 참고한 글
 ###### [📃[Spring Security] 스프링시큐리티 기본개념과 동작구조의 이해(1)](https://kimchanjung.github.io/programming/2020/07/01/spring-security-01/)   
 ###### [📃로그인 과정으로 살펴보는 스프링 시큐리티 아키텍처(Spring Security Architecture)](https://jeong-pro.tistory.com/205)   
 ###### [📃[SpringBoot] Spring Security 처리 과정 및 구현 예제](https://mangkyu.tistory.com/77)   
