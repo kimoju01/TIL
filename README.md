@@ -3,8 +3,8 @@
 
 
 ## 📂 spring
-- JPA
-  - fetch 전략
-  - Dirty Checking
-- Spring-Security
-  - Spring Security란?
+- #### _JPA_
+  - ##### [Fetch 전략](https://github.com/kimoju01/TIL/blob/main/Spring/JPA/Fetch%20%EC%A0%84%EB%9E%B5.md)
+  - ##### [Dirty Checking](https://github.com/kimoju01/TIL/blob/main/Spring/JPA/dirty%20checking.md)
+- #### _Spring-Security_
+  - ##### [Spring Security란?](https://github.com/kimoju01/TIL/blob/main/Spring/Spring-Security/Spring%20Security%EB%9E%80%3F.md)
